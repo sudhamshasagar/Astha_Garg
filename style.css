@@ -238,18 +238,91 @@ body{
   .custombar{
 	margin-bottom: 31px;
   }
-  /* Education Section */
-
-  .experience-heading{
+  /* Experience Section */
+ #expcontent{
+	/* width: 100vw; */
+	margin: 10px 2.4%;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+ }
+ .card1{
 	width: 45vw;
-	height: 4vh;
-	background-color: #b68ae4;
-	font-size: 19.2px;
-	text-align: center;
-	align-items: center;
-	font-weight: bolder;
-	border-radius: 0px 0px 10px 10px;
-}
+ }
+ .card2{
+	width: 45vw;
+ }
+ .card5{
+	width: 90vw;
+ }
+ .card1 img{
+	width: 55px;
+	margin: 10px;
+	margin-bottom: 0.5px;
+ }
+ .card1 p{
+	margin: auto;
+	color:black;
+	font-size: 14px;
+	width: 42vw;
+	text-align: justify;
+	letter-spacing: 0.9px;
+	line-height: 1.4rem;
+ }
+ .card1 ul li{
+	margin: 3px -15px;
+ }
+
+ .card2 img{
+	width: 60px;
+	margin: 10px;
+	border-radius: 20px;
+	margin-bottom: 0.5px;
+ }
+ .card2 p{
+	margin: auto;
+	color:black;
+	font-size: 14px;
+	width: 42vw;
+	text-align: justify;
+	letter-spacing: 0.9px;
+	line-height: 1.4rem;
+ }
+ .card2 ul li{
+	margin: 3px -15px;
+ }
+ .card5{
+	margin: 5px 8px;
+ }
+
+ .card5 img{
+	width: 60px;
+	margin: 10px 10px;
+	border-radius: 20px;
+	margin-bottom: 0.5px;
+	
+ }
+ .card5 h5{
+	margin: 4px 0px;
+ }
+ .card5 p{
+	margin: auto;
+	color:black;
+	font-size: 14px;
+	width: 87vw;
+	text-align: justify;
+	letter-spacing: 0.9px;
+	line-height: 1.4rem;
+ }
+ .card5 ul li{
+	margin: 3px -15px;
+	width: 89.7vw;
+ }
+
+
+
+
 
 
 
@@ -448,5 +521,86 @@ body{
 	  .custombar{
 		margin-bottom: 31px;
 	  }
+
+	  #expcontent{
+		/* width: 100vw; */
+		margin: 10px 2.4%;
+		padding: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	 }
+	 .card1{
+		width: 90vw;
+	 }
+	 .card2{
+		width: 90vw;
+	 }
+	 .card5{
+		width: 90vw;
+	 }
+	 .card1 img{
+		width: 55px;
+		margin: 10px;
+		margin-bottom: 0.5px;
+	 }
+	 .card1 p{
+		margin: auto;
+		color:black;
+		font-size: 14px;
+		width: 80vw;
+		text-align: justify;
+		letter-spacing: 0.9px;
+		line-height: 1.4rem;
+	 }
+	 .card1 ul li{
+		margin: 3px -15px;
+	 }
+	
+	 .card2 img{
+		width: 60px;
+		margin: 10px;
+		border-radius: 20px;
+		margin-bottom: 0.5px;
+	 }
+	 .card2 p{
+		margin: auto;
+		color:black;
+		font-size: 14px;
+		width: 80vw;
+		text-align: justify;
+		letter-spacing: 0.9px;
+		line-height: 1.4rem;
+	 }
+	 .card2 ul li{
+		margin: 3px -15px;
+	 }
+	 /* .card5{
+		margin: 5px 8px;
+	 } */
+	
+	 .card5 img{
+		width: 60px;
+		margin: 10px 10px;
+		border-radius: 20px;
+		margin-bottom: 0.5px;
+		
+	 }
+	 /* .card5 h5{
+		margin: 4px 0px;
+	 } */
+	 .card5 p{
+		margin: auto;
+		color:black;
+		font-size: 14px;
+		width: 80vw;
+		text-align: justify;
+		letter-spacing: 0.9px;
+		line-height: 1.4rem;
+	 }
+	 .card5 ul li{
+		margin: 3px -15px;
+		/* width: 89.7vw; */
+	 }
   }
   
