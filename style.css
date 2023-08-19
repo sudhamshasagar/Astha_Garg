@@ -998,9 +998,9 @@ footer a:hover {
 	  
 	  .Main_Heading {
 		text-align: center;
-		font-size: 36px;
+		font-size: 20px;
 		margin-top: 0;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 		color: #FF69B4;
 	  }
 	 .forms p{
@@ -1009,7 +1009,7 @@ footer a:hover {
 	  
 	  label, input, select {
 		display: block;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 		font-size: 18px;
 		color: white;
 	  }
@@ -1032,7 +1032,7 @@ footer a:hover {
 		border: none;
 		border-radius: 5px;
 		padding: 10px;
-		font-size: 18px;
+		font-size: 15px;
 		cursor: pointer;
 		margin-top: 20px;
 	  }
