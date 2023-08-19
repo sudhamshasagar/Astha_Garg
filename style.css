@@ -702,7 +702,7 @@ body{
 		display: inline-block;
 		margin: 35px 45px;
 		/* padding: 20px; */
-		width: 95vw;
+		width: 75vw;
 		height: 50vh;
 		overflow-y: scroll ;
 		box-sizing: border-box;
@@ -711,6 +711,7 @@ body{
 		border-style: solid;
 		border-color: black;
 		border-width: 0px 0px 1px 0px;
+		
 		
 	}
 	.certificate-descriptions p{
@@ -729,7 +730,7 @@ body{
 		width: 80vw;
 		background-color: #b68ae4;
 		border-radius: 10px;
-		height: 31.3vh;	
+		height: 40.3vh;	
 		text-align: justify;
 	}
 	.awards-papers{
@@ -740,14 +741,14 @@ body{
 	}
 	.awards{
 		width: 80vw;
-		margin: 0px 5px;
+		margin: 5px 5px;
 		border-radius: 5px;
 		color: white;
 		box-shadow: 0px 0px 4px 1px black;
 	}
 	.papers{
 		width: 80vw;
-		margin: 0px 5px;
+		margin: 5px 5px;
 		border-radius: 5px;
 		color: white;
 		box-shadow: 0px 0px 4px 1px black;
