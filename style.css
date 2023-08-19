@@ -317,7 +317,10 @@ body{
 	width: 89.7vw;
  }
  /* Certificates Section Starts Here */
- 
+
+.static{
+	position: sticky;
+}
 .certificates{
 	margin-top: 20px;
 	
@@ -766,5 +769,11 @@ body{
 		margin: 10px 5px;
 		text-align: justify;
 	}
+	.idealnav{
+		margin: 10px 50px;
+		width: 70vw;
+	}
+	
+	
   }
   
