@@ -13,9 +13,6 @@ body{
 	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-.navbuttons {
-	
-}
 .navbuttons ul {
 	box-sizing: border-box;
 	box-shadow: 0px 0px 1px 1px black;
@@ -319,11 +316,90 @@ body{
 	margin: 3px -15px;
 	width: 89.7vw;
  }
+ /* Certificates Section Starts Here */
+ 
+.certificates{
+	margin-top: 20px;
+	
+	padding: 5px;
+    display: flex; 
+	flex-direction: row-reverse;
+	/* background-color: #020001; */
+	border-radius: 20px;	
+}
 
-
-
-
-
+.certificates ul li a{
+	margin: 0px;
+	text-decoration: none;
+	color: black;
+	padding: 0.7px;
+	text-align: left;
+	font-size: 15.4px;
+	width: 16.5vw;
+}
+.certificate-descriptions{
+	display: inline-block;
+	margin: 35px 10px 10px;
+	/* padding: 20px; */
+	width: 90vw;
+	height: 50vh;
+	overflow-y: scroll ;
+	box-sizing: border-box;
+	border-radius: 10px 0px 0px 0px;
+	color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 1px 0px;
+	
+}
+.certificate-descriptions p{
+	width: 77vw;
+	text-align: justify;
+}
+.certificate-descriptions h5{
+	color: #FF69B4;
+}
+.certificate-headings{
+	margin: 5px 5px;
+	width: 18vw;
+	background-color: #b68ae4;
+	border-radius: 10px;
+	height: 52.9vh;	
+}
+.awards-papers{
+	
+	width: 90vw;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: row;
+}
+.awards{
+	width: 45vw;
+	margin: 0px 5px;
+	border-radius: 5px;
+	color: white;
+	box-shadow: 0px 0px 4px 1px black;
+}
+.papers{
+	width: 45vw;
+	margin: 0px 5px;
+	border-radius: 5px;
+	color: white;
+	box-shadow: 0px 0px 4px 1px black;
+}
+.awards ul li{
+	list-style: disc;
+	width: 40vw;
+	margin: 10px 10px;
+	text-align: justify;
+	
+}
+.papers ul li{
+	list-style: disc;
+	width: 40vw;
+	margin: 10px 10px;
+	text-align: justify;
+}
 
 
 
@@ -602,5 +678,92 @@ body{
 		margin: 3px -15px;
 		/* width: 89.7vw; */
 	 }
+
+	 /* Certification Section Responsiveness */
+	 .certificates{
+		margin-top: 20px;
+		padding: 5px;
+		display: flex; 
+		flex-direction: column;
+		/* background-color: #020001; */
+		border-radius: 20px;	
+	}
+	
+	.certificates ul li a{
+		margin: 0px;
+		text-decoration: none;
+		color: black;
+		padding: 0.7px;
+		text-align: left;
+		font-size: 15.4px;
+		width: 80vw;
+	}
+	.certificate-descriptions{
+		display: inline-block;
+		margin: 35px 45px;
+		/* padding: 20px; */
+		width: 95vw;
+		height: 50vh;
+		overflow-y: scroll ;
+		box-sizing: border-box;
+		border-radius: 10px 0px 0px 0px;
+		color: white;
+		border-style: solid;
+		border-color: black;
+		border-width: 0px 0px 1px 0px;
+		
+	}
+	.certificate-descriptions p{
+		width: 70vw;
+		text-align: justify;
+	}
+	.certificate-descriptions h5{
+		margin: 5px 5px;
+		text-align: center;
+		color: #FF69B4;
+		width: 70vw;
+		font-size: 17px;
+	}
+	.certificate-headings{
+		margin: 5px auto;
+		width: 80vw;
+		background-color: #b68ae4;
+		border-radius: 10px;
+		height: 31.3vh;	
+		text-align: justify;
+	}
+	.awards-papers{
+		/* width: 90vw; */
+		margin: 20px auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.awards{
+		width: 80vw;
+		margin: 0px 5px;
+		border-radius: 5px;
+		color: white;
+		box-shadow: 0px 0px 4px 1px black;
+	}
+	.papers{
+		width: 80vw;
+		margin: 0px 5px;
+		border-radius: 5px;
+		color: white;
+		box-shadow: 0px 0px 4px 1px black;
+	}
+	.awards ul li{
+		list-style: disc;
+		width: 65vw;
+		margin: 10px 5px;
+		text-align: justify;
+		
+	}
+	.papers ul li{
+		list-style: disc;
+		width: 65vw;
+		margin: 10px 5px;
+		text-align: justify;
+	}
   }
   
