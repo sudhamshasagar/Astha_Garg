@@ -58,11 +58,19 @@ body{
 	
 }
 
- .fa-linkedin {
+.fa-linkedin {
 	margin-right: 10px;
+	color: #b68ae4;
 }
 .fa-square-youtube{
 	margin-right: 10px;
+	color: #b68ae4;
+}
+.fa-linkedin:hover{
+	color: #FF69B4;
+}
+.fa-square-youtube:hover{
+	color: #FF69B4;
 } 
 .image img{
 	width: 60%;
@@ -74,6 +82,7 @@ body{
 	margin: 10px 15px 0px 15px;
 	font-size: 23px;
 }
+
 .buttons {
 	display: flex;
 	text-align: center;  
@@ -322,8 +331,8 @@ body{
 	position: sticky;
 }
 .certificates{
-	margin-top: 20px;
-	
+	margin: 10px auto;
+	width: 90vw;
 	padding: 5px;
     display: flex; 
 	flex-direction: row-reverse;
@@ -356,18 +365,18 @@ body{
 	
 }
 .certificate-descriptions p{
-	width: 77vw;
+	width: 67vw;
 	text-align: justify;
 }
 .certificate-descriptions h5{
 	color: #FF69B4;
 }
 .certificate-headings{
-	margin: 5px 5px;
-	width: 18vw;
-	background-color: #b68ae4;
+	margin: 1px 5px;
+	width: 19vw;
+	background-color: #b0b37b;
 	border-radius: 10px;
-	height: 52.9vh;	
+	height: 54.9vh;	
 }
 .awards-papers{
 	
@@ -404,6 +413,108 @@ body{
 	text-align: justify;
 }
 
+/* Certificate Slides Section */
+.certificate-slides{
+	width: 90vw;
+	margin: 10px auto;
+}
+.customslide{
+	width: 70vw;
+	margin: 10px auto;
+}
+.customslide img{
+	width: 500px;
+	margin: 10px auto;
+}
+/* Footer styles */
+.footer {
+    background-color: #0f0c29;
+    color: #ffffff;
+    padding: 20px 0;
+    position: relative;
+}
+
+.social-media-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.social-media-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-media-list a:hover {
+    color: #FF69B4;
+}
+
+.text-md-end {
+    text-align: right;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 24px;
+    color: #0f0c29;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: #FF69B4;
+    transform: scale(1.1);
+}
+
+.sitemap {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sitemap a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sitemap a:hover {
+    color: #FF69B4;
+}
+footer {
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+footer div {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #555;
+    font-size: 25px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #b68ae4;;
+}
 
 
 
@@ -473,7 +584,7 @@ body{
 		margin: 10px auto ; /* Center buttons and add margin */
 		padding: 10px 0px; /* Adjust button padding */
 		border: none;
-		background-color: #9040e6;
+		background-color: #b68ae4;
 		color:#020001;
 		border-radius: 10px;
 		font-weight: bold;
@@ -616,7 +727,7 @@ body{
 		width: 90vw;
 	 }
 	 .card5{
-		width: 90vw;
+		width: 92vw;
 	 }
 	 .card1 img{
 		width: 55px;
@@ -774,6 +885,25 @@ body{
 		width: 70vw;
 	}
 	
+	/* Certificate Slides */
+	.certificate-slides{
+		width: 80vw;
+		margin: 10px auto;
+	}
+	.customslide{
+		width: 75vw;
+		margin: 10px -5px;
+	}
+	.customslide img{
+		width: 300px;
+		margin: 10px auto;
+	}
+	.customcard{
+		width: 70vw;
+		margin: 10px 5px;
+		font-size: 15px;
+
+	}
 	
   }
   
