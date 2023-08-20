@@ -8,7 +8,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="contact">
     <nav class="navbar navbar-expand-lg" style="background: #0f0c29; 
 	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
 	background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  color:#020001; font-weight: bolder; text-align: center;">
@@ -39,31 +39,57 @@
         </div>
     </nav>
     <section>
-        <form action="" class="forms">
-            <h1 class="Main_Heading">Contact Information</h1>
-            <p class="F_Name">First Name: <input type="text" name="F_Name" required> </p>
-            <p class="L_Name">Last Name: <input type="text" name="L_Name" required> </p>
-            <p class="email">Email-ID: <input type="email" name="" required> </p>
-            <p class="Phone_N">Phone Number: <input type="Number" name="" required> </p>
-            <label for="message">Message</label>
-                <textarea id="message" name="message" rows="2" class="msg" required></textarea>
-            <br>
-            <input type="Submit" value="Submit">
-        </form>
+        <div class="about contact-about">
+            <div class="card text-center" style="border-style: none; border-color: black;">
+                <div class="card-header" style="background-color: #b68ae4; color:#020001; font-style: bold;">
+                    Let's Converge the Communication
+                </div>
+            </div>  
+        </div>
+        <div class="contact-body">
+            <div class="contact-description">
+                
+                <div class="exp-part">
+                <i class="fa-solid fa-address-card"></i>
+                <p>Address:</p>
+                <p >Muzaffar Nagar,Uttar Pradesh</p>
+                <p></p>
+                <i class="fa-solid fa-phone"></i>
+                <p>Phone: +91 8979991191</p>
+                <i class="fa-solid fa-envelope" id="emailicon"></i>
+                <p>Email: garg.astha1022@gmail.com</p>
+                </div>
+            </div>
+            <div class="custombadge">
+                <div class="badge-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" style="background: #0f0c29; 
+                    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+                    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  color:#020001; color: White; font-weight: bolder;">Linked<i class="fab fa-linkedin customlinkd" target="_blank"></i></li>
+                </ul>
+                <img src="logo.jpg" style="width: 55px; height: 55px; border-radius: 50%;">
+                <h4>Astha Garg</h4>
+                <p>Ph.D.Scholar</p>
+                <p></p>
+                <a href="https://www.linkedin.com/in/astha-garg-7042a916b/" target="_blank" style="text-decoration: none;"><button>View Profile</button></a>
+                </div>
+
+            </div> 
+        </div>
     </section>
     <section>
         <footer class="text-center">
             <p>&copy; 2023 Astha Garg. All rights reserved.</p>
             <div>
-                <a href="https://wa.me/+918979991191" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-twitter" target="_blank"></i></a>
-                <a href="https://www.linkedin.com/in/astha-garg-7042a916b/"><i class="fab fa-linkedin" target="_blank"></i></a>
+                <a href="#" target="_blank" id="whatsapplink"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" target="_blank" id="email"><i class="fa-regular fa-envelope"></i></a>
                 <a href="https://youtube.com/@asthagarg1022?si=oIavoaj_mlX7jKqr" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
         </footer>   
     </section>
-
+    <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
 </body>
 
 </html>
