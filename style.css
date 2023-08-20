@@ -978,7 +978,7 @@ button:hover{
 		background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 	}
 	.contact-body{
-		width: 60vw;
+		width: 90vw;
 		margin: 5px auto;
 		display: flex;
 		flex-direction: column;
