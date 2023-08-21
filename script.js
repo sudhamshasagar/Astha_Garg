@@ -1,3 +1,39 @@
+// arrow - id name of link tag of style sheet
+// modeIcon - id name used for the font-awesome icon(default icon used fa-sun)
+const themeChanger = document.querySelector('#arrow');
+const modeIcon = document.querySelector('#modeIcon');
+
+// Functions for toggle mode and icon
+
+function toggleMode() {
+    if (themeChanger.href.endsWith('darkstyle.css')) {
+        themeChanger.href = "lightstyle.css";
+        localStorage.setItem('mode', 'light');
+        modeIcon.classList.replace('fa-moon', 'fa-sun');
+    } else {
+        themeChanger.href = "darkstyle.css";
+        localStorage.setItem('mode', 'dark');
+        modeIcon.classList.replace('fa-sun', 'fa-moon');
+        
+    }
+}
+
+// Event listener for clicking the mode icon
+if (modeIcon) {
+    modeIcon.addEventListener('click', toggleMode);
+}
+
+// Apply user's choice mode for the rest of the pages
+document.addEventListener('DOMContentLoaded', () => {
+    const savedMode = localStorage.getItem('mode');
+    if (savedMode === 'dark') {
+        themeChanger.href = "darkstyle.css";
+        modeIcon.classList.replace('fa-sun', 'fa-moon');
+    } else {
+        themeChanger.href = "lightstyle.css";
+        modeIcon.classList.replace('fa-moon', 'fa-sun');
+    }
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log("DOM content loaded.");
@@ -16,6 +52,8 @@ document.addEventListener('DOMContentLoaded', function(){
     emailMsg.href = `mailto:garg.astha1022@gmail.com?subject=${subject}&body=${message}`;
 });
 
+
+// Functionality for Download CV Button
 const downLoad = document.querySelector('.downloadCV');
 
 downLoad.addEventListener('click', function(){
