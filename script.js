@@ -3,18 +3,49 @@
 const themeChanger = document.querySelector('#arrow');
 const modeIcon = document.querySelector('#modeIcon');
 
-// Functions for toggle mode and icon
+// Function to set the theme based on user's system mode
+function setThemeBasedOnSystemMode() {
+    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
+    if (prefersDarkMode) {
+        themeChanger.href = "darkstyle.css";
+        localStorage.setItem('mode', 'dark');
+        if (modeIcon) {
+            modeIcon.classList.replace('fa-sun', 'fa-moon');
+        }
+    } else {
+        const savedMode = localStorage.getItem('mode');
+        if (savedMode === 'dark') {
+            themeChanger.href = "darkstyle.css";
+            if (modeIcon) {
+                modeIcon.classList.replace('fa-sun', 'fa-moon');
+            }
+        } else {
+            themeChanger.href = "lightstyle.css";
+            if (modeIcon) {
+                modeIcon.classList.replace('fa-moon', 'fa-sun');
+            }
+        }
+    }
+}
+
+// Call the function to set the theme based on user's system mode
+setThemeBasedOnSystemMode();
+
+// Functions for toggle mode and icon
 function toggleMode() {
     if (themeChanger.href.endsWith('darkstyle.css')) {
         themeChanger.href = "lightstyle.css";
         localStorage.setItem('mode', 'light');
-        modeIcon.classList.replace('fa-moon', 'fa-sun');
+        if (modeIcon) {
+            modeIcon.classList.replace('fa-moon', 'fa-sun');
+        }
     } else {
         themeChanger.href = "darkstyle.css";
         localStorage.setItem('mode', 'dark');
-        modeIcon.classList.replace('fa-sun', 'fa-moon');
-        
+        if (modeIcon) {
+            modeIcon.classList.replace('fa-sun', 'fa-moon');
+        }
     }
 }
 
@@ -22,6 +53,7 @@ function toggleMode() {
 if (modeIcon) {
     modeIcon.addEventListener('click', toggleMode);
 }
+
 
 // Apply user's choice mode for the rest of the pages
 document.addEventListener('DOMContentLoaded', () => {
